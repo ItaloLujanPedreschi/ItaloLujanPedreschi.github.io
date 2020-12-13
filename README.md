@@ -1,1 +1,1 @@
-# Italo Lujan Pedrescho Portfolio Site
+# Italo Lujan Pedreschi Portfolio Site
