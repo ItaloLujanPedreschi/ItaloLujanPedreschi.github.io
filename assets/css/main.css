@@ -2309,6 +2309,15 @@ input, select, textarea {
 			padding: 0 1em 0 0;
 		}
 
+			ul.icons li a {
+				transition: 0.2s;
+				border: none;
+			}
+
+			ul.icons li a:hover {
+				opacity: .7;
+			}
+
 			ul.icons li:last-child {
 				padding-right: 0 !important;
 			}
@@ -2559,7 +2568,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 25%;
 		}
 
 			.features li:nth-child(1) {
@@ -2600,6 +2609,14 @@ input, select, textarea {
 
 			.features li:nth-child(10) {
 				background-color: rgba(0, 0, 0, 0.35);
+			}
+
+			.features li:nth-child(11) {
+				background-color: rgba(0, 0, 0, 0.385);
+			}
+
+			.features li:nth-child(12) {
+				background-color: rgba(0, 0, 0, 0.42);
 			}
 
 			.features li:before {
@@ -2681,8 +2698,13 @@ input, select, textarea {
 		}
 
 			.spotlight .image img {
+				transition: 0.2s;
 				border-radius: 0;
 				width: 100%;
+			}
+
+			.spotlight .image img:hover {
+				opacity: 0.8;
 			}
 
 		.spotlight .content {
@@ -2693,6 +2715,14 @@ input, select, textarea {
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+		}
+
+		.spotlight .content h2 a {
+			border: none;
+		}
+
+		.spotlight .content h2 a:hover {
+			text-decoration: underline;
 		}
 
 		.spotlight:nth-child(2n) {
