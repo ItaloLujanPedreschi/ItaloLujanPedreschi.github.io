@@ -2725,6 +2725,10 @@ input, select, textarea {
 			text-decoration: underline;
 		}
 
+		.spotlight .content h2 a .fab:hover {
+			opacity: 0.7;
+		}
+
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
