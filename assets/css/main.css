@@ -3176,6 +3176,14 @@ input, select, textarea {
 			background-color: transparent;
 		}
 
+		.wrapper.style4 .inner p a {
+			border-bottom: none;
+		}
+
+		.wrapper.style4 .inner p a:hover {
+			border-bottom: 1px dotted;
+		}
+
 		.wrapper.style5 {
 			background-color: #ffffff;
 			color: #4E4852;
