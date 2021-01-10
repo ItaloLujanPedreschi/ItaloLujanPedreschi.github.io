@@ -72,6 +72,23 @@ input, select, textarea {
 	appearance: none;
 }
 
+#one {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+}
+
+#one .inner {
+	height: 528px;
+	padding-top: 96px;
+	padding-bottom: 64px;
+}
+
+#one img {
+	height: 528px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
