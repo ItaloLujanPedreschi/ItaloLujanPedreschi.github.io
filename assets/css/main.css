@@ -89,6 +89,10 @@ input, select, textarea {
 	height: 528px;
 }
 
+#one .inner .major p {
+	padding: 0 24px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
